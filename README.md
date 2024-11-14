@@ -32,4 +32,5 @@ docker compose up -d --build
 Once started, you can access the services as follows:
 
 **Nginx (WordPress site):** http://localhost:8080
+
 **MySQL Database:** Accessible on port 3306 by MySQL clients.
