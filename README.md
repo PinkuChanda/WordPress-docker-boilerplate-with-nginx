@@ -1,5 +1,7 @@
-# WordPress with MySQL and Nginx using Docker
-Docker setup for Laravel with Nginx and MySQL. Quickly spin up a Laravel environment with optimized configurations for PHP and Nginx. 
+# WordPress Docker Environment with Nginx and MySQL
+
+This Docker configuration sets up a WordPress environment using Nginx as a web server and MySQL as the database backend. The setup allows for quick deployment of WordPress with optimal configurations for development.
+
 
 ## Prerequisites
 
@@ -9,6 +11,9 @@ Docker setup for Laravel with Nginx and MySQL. Quickly spin up a Laravel environ
 ## Setup Guide
 
 **Clone the Repository**
+
+To get started, clone the repository and navigate into the project directory:
+
    ```
    git clone <repo-url>
    cd <repo-directory>
@@ -24,4 +29,7 @@ docker compose up -d --build
 
 **Access WordPress:**
 
-Once the containers are running, you can access the WordPress site at **http://localhost:8080**
+Once started, you can access the services as follows:
+
+**Nginx (WordPress site):** http://localhost:8080
+**MySQL Database:** Accessible on port 3306 by MySQL clients.
